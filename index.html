@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Text to Video App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Text to Video Generator</h1>
+    <textarea id="textInput" placeholder="Enter your script or text here..."></textarea>
+    <button id="generateBtn">Generate Video</button>
+    <div id="loading" style="display: none;">Generating video, please wait...</div>
+    <div id="videoContainer" style="display: none;">
+      <h2>Your Generated Video</h2>
+      <video id="outputVideo" controls></video>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
